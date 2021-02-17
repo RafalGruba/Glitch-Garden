@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8313056073576274974}
   - component: {fileID: 8313056073576274973}
   - component: {fileID: 8313056073576274944}
+  - component: {fileID: 1483528594847268051}
+  - component: {fileID: 1976836810984191957}
+  - component: {fileID: 7559167122092140525}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -115,4 +118,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12fbbeaa788cdcd42862fc1244ab42eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 0.9
+--- !u!50 &1483528594847268051
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313056073576274972}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &1976836810984191957
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313056073576274972}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.51, y: 1.86}
+    newSize: {x: 0.81, y: 0.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.102652736, y: -0.5753096}
+      - {x: -0.084505744, y: -0.52864146}
+      - {x: -0.11228296, y: -0.5137012}
+      - {x: -0.2215434, y: -0.5107393}
+      - {x: -0.28707027, y: -0.47059274}
+      - {x: -0.34095383, y: -0.40749454}
+      - {x: -0.31157446, y: -0.37285113}
+      - {x: -0.30990553, y: -0.3405571}
+      - {x: -0.35702038, y: -0.2850523}
+      - {x: -0.35681057, y: -0.24624968}
+      - {x: -0.4094023, y: -0.18605612}
+      - {x: -0.41006613, y: -0.10596673}
+      - {x: -0.46074417, y: 0.09489378}
+      - {x: -0.5083431, y: 0.16541044}
+      - {x: -0.7187768, y: 0.1593272}
+      - {x: -0.783165, y: -0.001884222}
+      - {x: -0.88410306, y: -0.08818511}
+      - {x: -0.8964231, y: -0.11}
+      - {x: -0.88363767, y: -0.15867727}
+      - {x: -0.82299274, y: -0.20598575}
+      - {x: -0.78499997, y: -0.21941613}
+      - {x: -0.6490016, y: -0.22992468}
+      - {x: -0.6789252, y: -0.29344845}
+      - {x: -0.73345137, y: -0.28342772}
+      - {x: -0.7959695, y: -0.2995782}
+      - {x: -0.8075373, y: -0.3414055}
+      - {x: -0.7865801, y: -0.38317323}
+      - {x: -0.69354117, y: -0.3819715}
+      - {x: -0.71992016, y: -0.43873072}
+      - {x: -0.7137885, y: -0.5002909}
+      - {x: -0.6731405, y: -0.5605812}
+      - {x: -0.68297243, y: -0.5786345}
+      - {x: -0.7519147, y: -0.56876594}
+      - {x: -0.7763735, y: -0.6035503}
+      - {x: -0.70907456, y: -0.6567752}
+      - {x: -0.59190655, y: -0.6543784}
+      - {x: -0.5734019, y: -0.6082771}
+      - {x: -0.46688366, y: -0.57793784}
+      - {x: -0.45786715, y: -0.59745026}
+      - {x: -0.4820466, y: -0.6227846}
+      - {x: -0.475955, y: -0.6527936}
+      - {x: -0.4594822, y: -0.6655929}
+      - {x: -0.39467448, y: -0.6227008}
+      - {x: -0.38289833, y: -0.5797205}
+      - {x: -0.160305, y: -0.6092607}
+--- !u!114 &7559167122092140525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313056073576274972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9587c73f5c4cbfe44b1c662a0408b53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
