@@ -404,7 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 8313056073576274944, guid: 237ced55136bf7447ba47b717973dbee,
+  attackerPrefab: {fileID: 7649960139679972601, guid: 237ced55136bf7447ba47b717973dbee,
     type: 3}
 --- !u!4 &426318979 stripped
 Transform:
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 8313056073576274944, guid: 237ced55136bf7447ba47b717973dbee,
+  attackerPrefab: {fileID: 7649960139679972601, guid: 237ced55136bf7447ba47b717973dbee,
     type: 3}
 --- !u!4 &573383552 stripped
 Transform:
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 8313056073576274944, guid: 237ced55136bf7447ba47b717973dbee,
+  attackerPrefab: {fileID: 7649960139679972601, guid: 237ced55136bf7447ba47b717973dbee,
     type: 3}
 --- !u!4 &832078926 stripped
 Transform:
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 8313056073576274944, guid: 237ced55136bf7447ba47b717973dbee,
+  attackerPrefab: {fileID: 7649960139679972601, guid: 237ced55136bf7447ba47b717973dbee,
     type: 3}
 --- !u!4 &989703381 stripped
 Transform:
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 8313056073576274944, guid: 237ced55136bf7447ba47b717973dbee,
+  attackerPrefab: {fileID: 7649960139679972601, guid: 237ced55136bf7447ba47b717973dbee,
     type: 3}
 --- !u!4 &1366240824 stripped
 Transform:
@@ -1158,6 +1158,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -22.238092
+      objectReference: {fileID: 0}
+    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 3116818885103304315, guid: 42b0345e0b049a94a98f3816aa245e69,
         type: 3}
       propertyPath: m_Name
