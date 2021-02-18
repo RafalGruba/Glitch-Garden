@@ -1158,83 +1158,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1568626289248016050, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_text
-      value: 999
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3da0ee777020a69498771c42badfeabd,
-        type: 2}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 829470692271896141, guid: 3da0ee777020a69498771c42badfeabd,
-        type: 2}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278255615
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_overrideHtmlColors
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050195134929944942, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_enableVertexGradient
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2885514308244332566, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_Name
-      value: Stars Text
-      objectReference: {fileID: 0}
-    - target: {fileID: 2885514308244332566, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3116818885103304315, guid: 42b0345e0b049a94a98f3816aa245e69,
         type: 3}
       propertyPath: m_Name
@@ -1344,31 +1267,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8538612268555007706, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 310.43988
-      objectReference: {fileID: 0}
-    - target: {fileID: 8538612268555007706, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 135.8977
-      objectReference: {fileID: 0}
-    - target: {fileID: 8538612268555007706, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8538612268555007706, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -560.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 8538612268555007706, guid: 42b0345e0b049a94a98f3816aa245e69,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -468.27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42b0345e0b049a94a98f3816aa245e69, type: 3}
