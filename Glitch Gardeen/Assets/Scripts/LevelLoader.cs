@@ -18,8 +18,15 @@ public class LevelLoader : MonoBehaviour
             StartCoroutine(WaitForTime());
         }
     }
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
+    }
 
-
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(currentSceneIndex);
+    }
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
