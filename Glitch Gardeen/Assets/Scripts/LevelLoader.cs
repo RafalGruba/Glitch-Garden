@@ -31,10 +31,9 @@ public class LevelLoader : MonoBehaviour
         LoadNextScene();
     }
 
-
-    // Update is called once per frame
-    void Update()
+    public void LoadYouLose()
     {
-        
+        SceneManager.LoadScene("Lose Screen");
     }
+
 }
