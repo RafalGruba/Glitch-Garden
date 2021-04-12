@@ -749,10 +749,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1722494509, guid: 42b0345e0b049a94a98f3816aa245e69, type: 3}
-      propertyPath: m_Colors.m_ColorMultiplier
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3116818885103304315, guid: 42b0345e0b049a94a98f3816aa245e69,
         type: 3}
       propertyPath: m_Name
