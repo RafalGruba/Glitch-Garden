@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Options Screen.unity
-    guid: e07a649127c57db42881ca276db5512a
-  - enabled: 1
     path: Assets/Scenes/Splash Screen.unity
     guid: 19ca06ec1510d2b4ca7d3f25e06f3d15
   - enabled: 1
@@ -20,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 82a717b29548709479c63684ceab4586
+  - enabled: 1
+    path: Assets/Scenes/Options Screen.unity
+    guid: e07a649127c57db42881ca276db5512a
   - enabled: 1
     path: Assets/Scenes/Lose Screen.unity
     guid: fb0e50a6cfdc07543b261b9494076933
